@@ -312,10 +312,47 @@ li{
     height: auto;
     border-radius: 15px;
     box-shadow: 1px 2px 15px 2px rgba(0, 0, 0, 0.2);
+    padding: 55px;
+    text-align: center;
 }
+/* .banner_box:hover{
+    transform: rotateY(180deg);
+} */
 .banner_section .active{
     background: #0108c2;
     border-radius: 15px;
+}
+.banner_img{
+    width: auto;
+    height: 18vh;
+    margin-bottom: 1.56rem;
+}
+.banner_title{
+    font-size: 1.78rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1.0rem;
+    color: #1b1b1b;
+}
+.banner_section .active .banner_title{
+    color: #f0f0f0;
+}
+.banner_desc{
+    font-size: 1.03rem;
+    font-weight: 400;
+    color: #1b1b1b;
+    letter-spacing: 0.02rem;
+    line-height: 1.65rem;
+    margin-bottom: 1.8rem;
+}
+.banner_section .active .banner_desc{
+    color: #f0f0f0;
+}
+.learn_more_btn{
+    color: #1b1b1b !important;
+}
+.banner_section .active .learn_more_btn{
+    color: #f0f0f0 !important;
 }
 
 
