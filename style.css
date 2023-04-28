@@ -130,6 +130,7 @@ li{
     display: flex;
     align-items: center;
     column-gap: 1.5rem;
+    /* position: relative; */
 }
 .navbar_section ul li a{
     font-size: 1.1rem;
@@ -143,6 +144,18 @@ li{
 .navbar_section ul li .active{
     color: #e24806;
 }
+
+/* Subnavbar section */
+/* .subnavbar_items{
+    position: absolute;
+    background: #f0f0f0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
 
 .collection_box{
     display: flex;
