@@ -53,7 +53,7 @@ li{
     align-items: flex-start;
     justify-content: start;
     flex-direction: column;
-    row-gap: 1.0rem;
+    row-gap: 1.3rem;
     padding: 30px 175px;
 }
 .company_info_detail{
@@ -109,16 +109,24 @@ li{
     height: auto;
     background: #f0f0f0;
     border-radius: 6px;
-    padding: 25px 40px;
+    padding: 30px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.nav_section .logo{
+.nav_section .logo_section{
+    display: flex;
+    align-items: center;
+    column-gap: 1.0rem;
     color: #e24806;
     font-size: 1.7rem;
     font-weight: 600;
     letter-spacing: 0.1rem;
+}
+.navbar_section .logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 .navbar_section ul{
     display: flex;
