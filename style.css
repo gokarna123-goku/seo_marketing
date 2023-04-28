@@ -198,6 +198,41 @@ li{
     column-gap: 1.0rem;
 }
 
+.get_started_btn {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 4px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+.get_started_btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 4px;
+    background-color: #212121;
+    z-index: -1;
+    transition: all 250ms
+}
+
+.get_started_btn:hover {
+    color: #e8e8e8;
+}
+
+.get_started_btn:hover::before {
+    width: 100%;
+}
+
 
 /* Image Section */
 .hero_img_section{
