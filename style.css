@@ -202,12 +202,12 @@ li{
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    /* margin-left: 0.7rem; */
     border: 3px solid #f0f0f0;
-    background: linear-gradient(to bottom, rgba(255, 68, 0, 0.9), rgba(255, 68, 0, 0.75));
+    background: linear-gradient(to bottom, rgba(255, 68, 0, 0.9), rgba(1, 1, 102, 0.75));
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     animation: glowingAnimation 1.5s ease-out infinite both;
     margin-bottom: 3.1rem;
 }
@@ -322,7 +322,6 @@ li{
     background: #242bff;
 }
 .banner_section .active{
-    /* background: #080fe8; */
     background: #1219f1;
     border-radius: 15px;
 }
@@ -360,6 +359,47 @@ li{
 }
 
 
+/* About Section */
+.about{
+    width: 100%;
+    height: auto;
+    padding: 50px 175px;
+    display: flex;
+    align-items: center;
+}
+.about_section{
+    width: 100%;
+    height: 90%;
+    background: url("./img/about_bg.png") no-repeat;
+    background-size: contain;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 1.3rem;
+}
+.about_img_section{
+    width: 49%;
+    height: 62vh;
+}
+.about_img{
+    width: 100%;
+    height: 100%;
+    animation: flipAnimation 4s ease-out infinite alternate;
+}
+@keyframes flipAnimation {
+    from {
+        transform: rotateY(0deg);
+    }
+    from {
+        transform: rotateY(180deg);
+    }
+}
+
+.about_info_section{
+    width: 40%;
+    height: auto;
+}
 
 
 /* End */
