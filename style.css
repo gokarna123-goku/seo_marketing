@@ -474,7 +474,27 @@ li{
     padding: 45px 35px;
     background: #f0f0f0;
     border-radius: 10px;
+    transition: 0.5s ease-out;
 }
+.service_card::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 270px;
+    height: 100%;
+    border-radius: 10px;
+    background: rgb(226, 72, 6, 0.67);
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%); */
+    transition: top 0.5s ease;
+    z-index: 9999;
+}
+
+.service_card:hover::before {
+    top: 0;
+}
+
+
 .service_img{
     width: 80%;
     height: 25vh;
@@ -487,7 +507,6 @@ li{
 }
 
 .owl-prev, .owl-next{
-    /* background: #e24806 !important; */
     background: transparent !important;
     border: 2px solid #e24806 !important;
     color: #f0f0f0;
@@ -509,11 +528,9 @@ li{
     justify-content: center;
     cursor: pointer;
 }
-
 .owl-prev {
     left: -80px;
 }
-
 .owl-next {
     right: -80px;
 } 
