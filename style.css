@@ -37,7 +37,8 @@ li{
     position: relative;
     width: 100%;
     height: 120vh;
-    background: linear-gradient( to right, rgba(0, 0, 0, 0.35),  rgba(0, 0, 0, 0.25)), url("./img/banner-bg.png") no-repeat;
+    /* background: linear-gradient( to right, rgba(0, 0, 0, 0.35),  rgba(0, 0, 0, 0.25)), url("./img/banner-bg.png") no-repeat; */
+    background: url("./img/banner-bg.png") no-repeat;
     background-position: center bottom;
     background-size: cover;
 }
@@ -243,7 +244,7 @@ li{
     margin-bottom: 1.8rem;
 }
 
-.get_started_btn {
+.btn {
     display: inline-block;
     padding: 0.7rem 2.0rem;
     font-size: 16px;
@@ -260,7 +261,7 @@ li{
     z-index: 1;
     font-family: inherit;
 }
-.get_started_btn::before {
+.btn::before {
     content: "";
     position: absolute;
     left: 0;
@@ -272,7 +273,7 @@ li{
     transition: all .3s;
     z-index: -1;
 }
-.get_started_btn:hover::before {
+.btn:hover::before {
     transform: translateX(0);
 }
 
@@ -297,7 +298,25 @@ li{
     }
 }
 
-/* About us Section */
+/* Hero Banner Section */
+.banner_section{
+    width: 100%;
+    height: auto;
+    padding: 50px 175px;
+    display: flex;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+.banner_box{
+    width: 33.3%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 1px 2px 15px 2px rgba(0, 0, 0, 0.2);
+}
+.banner_section .active{
+    background: #0108c2;
+    border-radius: 15px;
+}
 
 
 
