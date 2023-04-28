@@ -37,9 +37,9 @@ li{
 .nav_hero_section{
     position: relative;
     width: 100%;
-    height: 110vh;
+    height: 120vh;
     background: linear-gradient( to right, rgba(0, 0, 0, 0.35),  rgba(0, 0, 0, 0.25)), url("./img/banner-bg.png") no-repeat;
-    background-position: center center;
+    /* background-position: center center; */
     background-size: cover;
 }
 .nav_section{
@@ -198,40 +198,85 @@ li{
     column-gap: 1.0rem;
 }
 
-.get_started_btn {
-    padding: 15px 25px;
-    border: unset;
-    border-radius: 4px;
-    color: #212121;
-    z-index: 1;
-    background: #e8e8e8;
-    position: relative;
-    font-weight: 1000;
-    font-size: 17px;
-    transition: all 250ms;
-    overflow: hidden;
+.video_play_section{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    /* margin-left: 0.7rem; */
+    border: 3px solid #f0f0f0;
+    background: linear-gradient(to bottom, rgba(255, 68, 0, 0.9), rgba(255, 68, 0, 0.75));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: glowingAnimation 1.5s ease-out infinite both;
+    margin-bottom: 3.1rem;
+}
+.video_play_section i{
+    font-size: 2.6rem;
+    color: #f0f0f0;
+}
+@keyframes glowingAnimation {
+    0%{
+        box-shadow: 0 0 0 0 #57575744, 0 0 0 0 #66666644;
+    }
+    70%{
+        box-shadow: 0 0 0 15px #66666644, 0 0 0 30px #66666644;
+    }
+    100%{
+        box-shadow: 0 0 0 15px #fff0, 0 0 0 30px #fff0;
+    }
 }
 
+.hero_title{
+    font-size: 4.1rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: #f0f0f0;
+    margin-bottom: 1.36rem;
+}
+
+.hero_desc{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #f0f0f0;
+    letter-spacing: 0.05rem;
+    line-height: 1.85rem;
+    margin-bottom: 1.8rem;
+}
+
+.get_started_btn {
+    display: inline-block;
+    padding: 0.7rem 2.0rem;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: white;
+    border: 3px solid rgb(226, 72, 6);
+    cursor: pointer;
+    position: relative;
+    background: transparent;
+    text-decoration: none;
+    border-radius: 4px;
+    overflow: hidden;
+    z-index: 1;
+    font-family: inherit;
+}
 .get_started_btn::before {
     content: "";
     position: absolute;
-    top: 0;
     left: 0;
-    height: 100%;
-    width: 0;
-    border-radius: 4px;
-    background-color: #212121;
-    z-index: -1;
-    transition: all 250ms
-}
-
-.get_started_btn:hover {
-    color: #e8e8e8;
-}
-
-.get_started_btn:hover::before {
+    top: 0;
     width: 100%;
+    height: 100%;
+    background: rgb(226, 72, 6);
+    transform: translateX(-100%);
+    transition: all .3s;
+    z-index: -1;
 }
+.get_started_btn:hover::before {
+    transform: translateX(0);
+}
+
 
 
 /* Image Section */
