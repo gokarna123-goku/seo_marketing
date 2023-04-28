@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    /* background: #f3f3f3; */
 }
 a{
     text-decoration: none;
@@ -39,7 +38,7 @@ li{
     width: 100%;
     height: 120vh;
     background: linear-gradient( to right, rgba(0, 0, 0, 0.35),  rgba(0, 0, 0, 0.25)), url("./img/banner-bg.png") no-repeat;
-    /* background-position: center center; */
+    background-position: center bottom;
     background-size: cover;
 }
 .nav_section{
@@ -277,12 +276,10 @@ li{
     transform: translateX(0);
 }
 
-
-
 /* Image Section */
 .hero_img_section{
     width: 55%;
-    height: 78vh;
+    height: 82vh;
 }
 .hero_img{
     width: 100%;
@@ -299,6 +296,9 @@ li{
         transform: translateY(-20px);
     }
 }
+
+/* About us Section */
+
 
 
 
