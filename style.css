@@ -314,12 +314,16 @@ li{
     box-shadow: 1px 2px 15px 2px rgba(0, 0, 0, 0.2);
     padding: 55px;
     text-align: center;
+    transition: 0.5s ease-out;
+    transform-origin: bottom top;
+    cursor: pointer;
 }
-/* .banner_box:hover{
-    transform: rotateY(180deg);
-} */
+.banner_box:hover{
+    background: #242bff;
+}
 .banner_section .active{
-    background: #0108c2;
+    /* background: #080fe8; */
+    background: #1219f1;
     border-radius: 15px;
 }
 .banner_img{
