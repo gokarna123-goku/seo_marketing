@@ -455,6 +455,18 @@ li{
     margin-bottom: 2.5rem;
 }
 
+.service_card{
+    width: 330px;
+    height: auto;
+    padding: 30px 20px;
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+.service_img{
+    width: 80%;
+    height: 25vh;
+    margin-bottom: 1.7rem;
+}
 
 
 
