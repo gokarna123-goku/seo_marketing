@@ -469,7 +469,7 @@ li{
 }
 
 .service_card{
-    width: 330px;
+    width: 270px;
     height: auto;
     padding: 45px 35px;
     background: #f0f0f0;
@@ -485,6 +485,7 @@ li{
     font-weight: bold;
     color: #1b1b1b;
 }
+
 
 
 
