@@ -217,13 +217,13 @@ li{
 }
 @keyframes glowingAnimation {
     0%{
-        box-shadow: 0 0 0 0 #57575744, 0 0 0 0 #66666644;
+        box-shadow: 0 0 0 0 #70707044, 0 0 0 0 #70707044;
     }
     70%{
-        box-shadow: 0 0 0 15px #66666644, 0 0 0 30px #66666644;
+        box-shadow: 0 0 0 15px #7e7e7e44, 0 0 0 30px #7e7e7e44;
     }
     100%{
-        box-shadow: 0 0 0 15px #fff0, 0 0 0 30px #fff0;
+        box-shadow: 0 0 0 15px #fff2, 0 0 0 30px #fff2;
     }
 }
 
@@ -250,7 +250,7 @@ li{
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.1rem;
-    color: white;
+    color: #f0f0f0;
     border: 3px solid rgb(226, 72, 6);
     cursor: pointer;
     position: relative;
@@ -397,9 +397,35 @@ li{
 }
 
 .about_info_section{
-    width: 40%;
+    width: 41%;
     height: auto;
 }
+.tag{
+    font-size: 1.12rem;
+    font-weight: 500;
+    color: #1219f1;
+    letter-spacing: 0.03rem;
+    margin-bottom: 0.5rem;
+}
+.about_title{
+    font-size: 2.41rem;
+    font-weight: bold;
+    color: #1b1b1b;
+    letter-spacing: 0.13rem;
+    line-height: 3.0rem;
+    margin-bottom: 2.5rem;
+}
+.about_desc{
+    font-size: 0.999rem;
+    color: #707070;
+    line-height: 2.0rem;
+    margin-bottom: 1.7rem;
+}
+.about_btn{
+    color: #1b1b1b;
+}
+
+
 
 
 /* End */
