@@ -486,6 +486,38 @@ li{
     color: #1b1b1b;
 }
 
+.owl-prev, .owl-next{
+    /* background: #e24806 !important; */
+    background: transparent !important;
+    border: 2px solid #e24806 !important;
+    color: #f0f0f0;
+    font-size: 3rem;
+    width: 40px;
+    height: 70px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 42%;
+    transform: translateY(-42%);
+}
+.owl-theme .owl-nav [class*=owl-] {
+    color: #f0f0f0 !important;
+    font-size: 3.0rem !important;
+    padding-top: -1rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.owl-prev {
+    left: -80px;
+}
+
+.owl-next {
+    right: -80px;
+} 
+
 
 
 
