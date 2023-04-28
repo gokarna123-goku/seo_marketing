@@ -109,7 +109,7 @@ li{
     height: auto;
     background: #f0f0f0;
     border-radius: 6px;
-    padding: 30px 40px;
+    padding: 25px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -117,7 +117,7 @@ li{
 .nav_section .logo_section{
     display: flex;
     align-items: center;
-    column-gap: 1.0rem;
+    column-gap: 0.5rem;
     color: #e24806;
     font-size: 1.7rem;
     font-weight: 600;
@@ -127,6 +127,8 @@ li{
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
 }
 .navbar_section ul{
     display: flex;
@@ -178,6 +180,9 @@ li{
 .collection_box .grid_box:hover i{
     color: #f0f0f0;
 }
+
+/* Hero Section */
+
 
 
 
