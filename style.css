@@ -1,0 +1,176 @@
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* background: #f3f3f3; */
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+/* Create own custom scrollbar */
+/* Width */
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track{
+    background: #f0f0f0;
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb{
+    background: #a8a8a8;
+}
+/* Scrollbar Handle Hover */
+::-webkit-scrollbar-thumb:hover{
+    background: #9a9a9a;
+}
+
+
+/* Nav Hero Section Styling */
+.nav_hero_section{
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    background: linear-gradient( to right, rgba(0, 0, 0, 0.35),  rgba(0, 0, 0, 0.25)), url("./img/banner-bg.png") no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.nav_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    row-gap: 1.0rem;
+    padding: 30px 175px;
+}
+.company_info_detail{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.company_detail{
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+    color: #f0f0f0;
+    font-size: 1.1rem;
+}
+.company_detail i{
+    color: #e24806;
+    margin-right: 0.3rem;
+}
+.email a{
+    color: #f0f0f0;
+}
+
+.company_social_account{
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+}
+
+.social_box{
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    background: transparent;
+    border: 1px solid #e24806;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease-out;
+}
+.social_box i{
+    font-size: 1.0rem;
+    color: #f0f0f0;
+}
+.social_box:hover{
+    background: #e24806;
+    border: 1px solid #f0f0f0;
+}
+
+.navbar_section{
+    width: 100%;
+    height: auto;
+    background: #f0f0f0;
+    border-radius: 6px;
+    padding: 25px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_section .logo{
+    color: #e24806;
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+.navbar_section ul{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+.navbar_section ul li a{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #1b1b1b;
+    transition: 0.4s ease-out;
+}
+.navbar_section ul li a:hover{
+    color: #e24806;
+}
+.navbar_section ul li .active{
+    color: #e24806;
+}
+
+.collection_box{
+    display: flex;
+    align-items: center;
+    column-gap: 1.3rem;
+    color: #1b1b1b;
+}
+.collection_box a{
+    color: #1b1b1b;
+}
+.collection_box i{
+    font-size: 1.3rem;
+    transition: 0.3s ease-out;
+}
+.collection_box i:hover{
+    color: #e24806;
+}
+.collection_box .grid_box{
+    width: 35px;
+    height: 35px;
+    background: #e24806;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #f0f0f0;
+}
+.collection_box .grid_box i{
+    font-size: 1.1rem;
+}
+.collection_box .grid_box:hover i{
+    color: #f0f0f0;
+}
+
+
+
+/* End */
