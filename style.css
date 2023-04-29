@@ -674,6 +674,7 @@ li{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 1.5rem;
 }
 .casestudy_subtitle{
     color: #1219f1;
@@ -727,6 +728,11 @@ li{
 .casestudy_card:hover .casestudy_detail{
     opacity: 1;
 }
+.load_more_btn{
+    color: #1b1b1b;
+}
+
+
 
 
 
