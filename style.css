@@ -734,6 +734,42 @@ li{
 
 
 
+/* Footer Section */
+.footer_section{
+    width: 100%;
+    height: auto;
+    padding: 100px;
+    background: #1b1b1b;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer_section .logo_section{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    color: #e24806;
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1.5rem;
+}
+.footer_section .logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.company_desc{
+    width: 45%;
+    height: auto;
+    font-size: 1.1rem;
+    color: #707070;
+}
+
 
 
 
