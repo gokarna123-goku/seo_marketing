@@ -29,7 +29,7 @@ $(document).ready(function () {
         items: 2,
       },
       700: {
-        items: 2,
+        items: 2.5,
       },
       800: {
         items: 3,

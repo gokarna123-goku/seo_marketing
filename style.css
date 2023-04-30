@@ -963,8 +963,6 @@ li{
 
     /* Service Section */
     .service_section {
-        width: 100%;
-        height: 100vh;
         padding: 50px 80px;
     }
     .service_title {
@@ -1079,9 +1077,7 @@ li{
 
     /* Service Section */
     .service_section {
-        width: 100%;
-        height: 100vh;
-        padding: 50px 80px;
+        padding: 50px 23px;
     }
     .service_title {
         font-size: 2.01rem;
@@ -1090,10 +1086,10 @@ li{
         margin-bottom: 2.0rem;
     }
     .service_section .owl-prev {
-        left: -55px;
+        display: none !important;
     }
     .service_section .owl-next {
-        right: -55px;
+        display: none !important;
     } 
 
     /* Team Section */
