@@ -767,11 +767,12 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1.6rem;
 }
 
 .blog_card{
-    width: 350px;
+    width: 370px;
     height: auto;
     background: rgba(112, 112, 112, 0.05);
     border: 1px solid rgba(36, 43, 255, 0.3);
