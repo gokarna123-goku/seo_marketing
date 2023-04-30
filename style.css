@@ -818,6 +818,20 @@ li{
     color: #707070;
     margin-bottom: 1.2rem;
 }
+.read_more_btn{
+    font-size: 1.04rem;
+    font-weight: 500;
+    color: #e24806;
+    letter-spacing: 0.02rem;
+    transition: transform 0.5s ease-out;
+}
+.read_more_btn i{
+    color: #e24806;
+    transition: transform 0.5s ease-out;
+}
+.read_more_btn:hover i{
+    transform: translateX(4px);
+}
 
 
 
