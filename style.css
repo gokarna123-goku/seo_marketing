@@ -132,7 +132,6 @@ li{
     display: flex;
     align-items: center;
     column-gap: 1.5rem;
-    /* position: relative; */
 }
 .navbar_section li{
     display: inline-block;
@@ -462,7 +461,6 @@ li{
 }
 .service_subtitle{
     color: #f0f0f0;
-    /* margin-bottom: 1.2rem; */
 }
 .service_title{
     color: #f0f0f0;
@@ -544,7 +542,8 @@ li{
     border-radius: 50%;
 }
 
-.service_section .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+.service_section .owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
     background: #e24806;
 }
 
@@ -654,12 +653,13 @@ li{
     border-radius: 10px;
 }
 
-.team_section .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+.team_section .owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
     background: #e24806;
 }
 
 
-/* Benefits Section */
+/* Case Study Section */
 .casestudy_section{
     width: 100%;
     height: auto;
@@ -708,14 +708,16 @@ li{
     width: 100%;
     height: auto;
     padding: 45px 15px;
-    background: linear-gradient(to top, rgb(18, 25, 241, 0.65) 0%, rgb(18, 25, 241, 0.65) 25%, rgb(18, 25, 241, 0.65) 50%, rgb(18, 25, 241, 0.004) 100%);
+    background: linear-gradient(to top, rgb(18, 25, 241, 0.65) 0%,
+     rgb(18, 25, 241, 0.65) 25%, rgb(18, 25, 241, 0.65) 50%,
+      rgb(18, 25, 241, 0.004) 100%);
     opacity: 0;
     transition: opacity 0.5s ease-out;
 }
 .casestudy_detail .c_title{
     font-size: 1.5rem;
-    font-weight: 600;
     color: #1b1b1b;
+    font-weight: 600;
 }
 .casestudy_card:hover .casestudy_detail{
     opacity: 1;
@@ -1231,7 +1233,6 @@ li{
 
 /* For max width 425 */
 @media screen and (max-width: 425px) {
-
     /* About Section */
     .about_img_section {
         width: 100%;
