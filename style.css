@@ -111,7 +111,7 @@ li{
     justify-content: space-between;
     transition: all 0.3s ease-out;
 }
-.navbar_section .fixed {
+.nav_hero_section .fixed {
     top: 0;
     position: fixed;
     background-color: #f0f0f0;
