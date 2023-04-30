@@ -781,7 +781,7 @@ li{
 }
 .blog_img{
     width: 100%;
-    height: 35vh;
+    height: 30vh;
     object-fit: cover;
     object-position: center;
 }
@@ -796,7 +796,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 1.0rem;
+    margin-bottom: 0.8rem;
 }
 .publish_by{
     font-size: 0.88rem;
@@ -805,6 +805,13 @@ li{
 .publish_date{
     font-size: 0.88rem;
     color: #707070;
+}
+.blog_card_title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.01rem;
+    color: #1b1b1b;
+    margin-bottom: 0.8rem;
 }
 
 
