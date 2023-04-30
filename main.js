@@ -1,5 +1,11 @@
 //
 
+$(document).ready(function () {
+  $("#toggleIcon").click(function () {
+    $("ul").toggleClass("showNavbar");
+  });
+});
+
 // Scroll Effect on Navbar Section
 // window.addEventListener("scroll", function () {
 //   var navbar = document.querySelector("navbar_section");
@@ -25,9 +31,9 @@ $(document).ready(function () {
       0: {
         items: 1,
       },
-      600: {
-        items: 2,
-      },
+      // 600: {
+      //   items: 2,
+      // },
       700: {
         items: 2.5,
       },
