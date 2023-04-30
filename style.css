@@ -408,6 +408,7 @@ li{
     width: 41%;
     height: auto;
 }
+/* Global Tag */
 .tag{
     font-size: 1.12rem;
     font-weight: 500;
@@ -417,6 +418,7 @@ li{
 .about_subtitle{
     color: #1219f1;
 }
+/* Global Title */
 .section_title{
     font-size: 2.41rem;
     font-weight: bold;
@@ -457,12 +459,7 @@ li{
     /* margin-bottom: 1.2rem; */
 }
 .service_title{
-    font-size: 2.41rem;
-    font-weight: bold;
     color: #f0f0f0;
-    letter-spacing: 0.08rem;
-    line-height: 3.0rem;
-    margin-bottom: 2.5rem;
 }
 
 .service_card{
@@ -562,12 +559,7 @@ li{
     color: #1219f1;
 }
 .team_title{
-    font-size: 2.41rem;
-    font-weight: bold;
     color: #1b1b1b;
-    letter-spacing: 0.08rem;
-    line-height: 3.0rem;
-    margin-bottom: 2.5rem;
 }
 
 .team_card{
@@ -677,12 +669,7 @@ li{
     color: #1219f1;
 }
 .casestudy_title{
-    font-size: 2.41rem;
-    font-weight: bold;
     color: #1b1b1b;
-    letter-spacing: 0.08rem;
-    line-height: 3.0rem;
-    margin-bottom: 2.5rem;
 }
 
 .casestudy_box{
@@ -751,12 +738,7 @@ li{
     color: #1219f1;
 }
 .blog_title{
-    font-size: 2.41rem;
-    font-weight: bold;
     color: #1b1b1b;
-    letter-spacing: 0.08rem;
-    line-height: 3.0rem;
-    margin-bottom: 2.5rem;
 }
 .blog_box{
     width: 100%;
@@ -939,6 +921,7 @@ li{
 
 
 /* Responsive Codes */
+
 /* For max width 1024 and min width 968 */
 @media screen and (min-width: 968px) and (max-width: 1024px) {
     /* Navbar Section */
@@ -965,15 +948,17 @@ li{
         font-size: 1.58rem;
     }
 
-    /* About Section */
-    .about {
-        padding: 50px 23px;
-    }
-    .about_title {
+    /* Global Title */
+    .section_title {
         font-size: 2.01rem;
         letter-spacing: 0.03rem;
         line-height: 2.5rem;
         margin-bottom: 2.0rem;
+    }
+
+    /* About Section */
+    .about {
+        padding: 50px 23px;
     }
 
     /* Service Section */
@@ -988,6 +973,40 @@ li{
         line-height: 2.5rem;
         margin-bottom: 2.0rem;
     }
+    .service_section .owl-prev {
+        left: -55px;
+    }
+    .service_section .owl-next {
+        right: -55px;
+    } 
+
+    /* Team Section */
+    .team_section {
+        padding: 50px 23px;
+    }
+
+    /* Case Study Section */
+    .casestudy_section {
+        padding: 50px 23px;
+    }
+    .casestudy_box {
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .casestudy_card {
+        width: 286px;
+    }
+
+    /* Blog Section */
+    .blog_section {
+        padding: 50px 23px;
+    }
+    .blog_card {
+        width: 289px;
+    }
+    .blog_card_title {
+        font-size: 1.3rem;
+    }
 
     /* News letter section */
     .newsletter_section {
@@ -998,6 +1017,248 @@ li{
     }
     .subscribe_input {
         width: 370px;
+    }
+
+    /* Footer Section */
+    .company_desc {
+        width: 75%;
+    }
+    
+}
+
+/* For max width 968 and min width 768 */
+@media screen and (min-width: 768px) and (max-width: 968px) {
+    /* Navbar Section */
+    .nav_section{
+        padding: 30px 23px;
+    }
+    .navbar_section {
+        padding: 25px 20px;
+    }
+    .company_info_detail {
+        justify-content: center;
+    }
+    .company_detail {
+        display: none;
+    }
+
+    /* Hero Section */
+    .hero_section {
+        padding: 30px 20px 30px 35px;
+    }
+    .hero_title {
+        font-size: 2.1rem;
+    }
+    .hero_img_section {
+        height: 75vh;
+    }
+
+    /* Banner Section */
+    .banner_section {
+        padding: 50px 23px;
+    }
+    .banner_box {
+        padding: 20px;
+    }
+    .banner_title {
+        font-size: 1.58rem;
+    }
+
+    /* Global Title */
+    .section_title {
+        font-size: 1.8rem;
+        letter-spacing: 0.03rem;
+        line-height: 2.5rem;
+        margin-bottom: 2.0rem;
+    }
+
+    /* About Section */
+    .about {
+        padding: 50px 23px;
+    }
+
+    /* Service Section */
+    .service_section {
+        width: 100%;
+        height: 100vh;
+        padding: 50px 80px;
+    }
+    .service_title {
+        font-size: 2.01rem;
+        letter-spacing: 0.03rem;
+        line-height: 2.5rem;
+        margin-bottom: 2.0rem;
+    }
+    .service_section .owl-prev {
+        left: -55px;
+    }
+    .service_section .owl-next {
+        right: -55px;
+    } 
+
+    /* Team Section */
+    .team_section {
+        padding: 50px 23px;
+        justify-content: center;
+    }
+
+    /* Case Study Section */
+    .casestudy_section {
+        padding: 50px 23px;
+    }
+    .casestudy_box {
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .casestudy_card {
+        width: 348px;
+    }
+
+    /* Blog Section */
+    .blog_section {
+        padding: 50px 23px;
+    }
+    .blog_card {
+        width: 348px;
+    }
+    .blog_card_title {
+        font-size: 1.3rem;
+    }
+
+    /* News letter section */
+    .newsletter_section {
+        padding: 40px 23px;
+    }
+    .newsletter_box {
+        padding: 0 30px;
+    }
+    .news_title {
+        font-size: 1.3rem;
+    }
+    .subscribe_input {
+        width: 330px;
+    }
+
+    /* Footer Section */
+    .company_desc {
+        width: 75%;
+    }
+    
+}
+
+/* For max width 768 and min width 425 */
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    /* Navbar Section */
+    .nav_section{
+        padding: 30px 23px;
+    }
+    .navbar_section {
+        padding: 25px 20px;
+    }
+    .company_info_detail {
+        display: none;
+    }
+
+    /* Hero Section */
+    .hero_section {
+        padding: 30px 20px 30px 35px;
+    }
+    .hero_title {
+        font-size: 2.1rem;
+    }
+    .hero_img_section {
+        height: 75vh;
+    }
+
+    /* Banner Section */
+    .banner_section {
+        padding: 50px 23px;
+    }
+    .banner_box {
+        padding: 20px;
+    }
+    .banner_title {
+        font-size: 1.58rem;
+    }
+
+    /* Global Title */
+    .section_title {
+        font-size: 1.8rem;
+        letter-spacing: 0.03rem;
+        line-height: 2.5rem;
+        margin-bottom: 2.0rem;
+    }
+
+    /* About Section */
+    .about {
+        padding: 50px 23px;
+    }
+
+    /* Service Section */
+    .service_section {
+        width: 100%;
+        height: 100vh;
+        padding: 50px 80px;
+    }
+    .service_title {
+        font-size: 2.01rem;
+        letter-spacing: 0.03rem;
+        line-height: 2.5rem;
+        margin-bottom: 2.0rem;
+    }
+    .service_section .owl-prev {
+        left: -55px;
+    }
+    .service_section .owl-next {
+        right: -55px;
+    } 
+
+    /* Team Section */
+    .team_section {
+        padding: 50px 23px;
+        justify-content: center;
+    }
+
+    /* Case Study Section */
+    .casestudy_section {
+        padding: 50px 23px;
+    }
+    .casestudy_box {
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .casestudy_card {
+        width: 348px;
+    }
+
+    /* Blog Section */
+    .blog_section {
+        padding: 50px 23px;
+    }
+    .blog_card {
+        width: 348px;
+    }
+    .blog_card_title {
+        font-size: 1.3rem;
+    }
+
+    /* News letter section */
+    .newsletter_section {
+        padding: 40px 23px;
+    }
+    .newsletter_box {
+        padding: 0 30px;
+    }
+    .news_title {
+        font-size: 1.3rem;
+    }
+    .subscribe_input {
+        width: 330px;
+    }
+
+    /* Footer Section */
+    .company_desc {
+        width: 75%;
     }
     
 }
