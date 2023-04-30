@@ -111,11 +111,6 @@ li{
     justify-content: space-between;
     transition: all 0.3s ease-out;
 }
-.nav_hero_section .fixed {
-    top: 0;
-    position: fixed;
-    background-color: #f0f0f0;
-}
 
 .nav_section .logo_section{
     display: flex;
@@ -138,6 +133,9 @@ li{
     align-items: center;
     column-gap: 1.5rem;
     /* position: relative; */
+}
+.navbar_section li{
+    display: inline-block;
 }
 .navbar_section ul li a{
     font-size: 1.1rem;
@@ -184,19 +182,13 @@ li{
 .collection_box .grid_box:hover i{
     color: #f0f0f0;
 }
+/* Toggle Btn Icon */
 #toggleIcon{
-    width: 40px;
-    height: 40px;
-    background: #e24806;
-    border-radius: 50%;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    color: #f0f0f0;
+    font-size: 1.5rem;
+    color: var(--tertiary);
+    float: right;
+    line-height: 3.5rem;
     display: none;
-}
-#toggleIcon i{
-    font-size: 1.35rem;
 }
 
 /* Hero Section */
@@ -1162,14 +1154,14 @@ li{
         position: fixed;
         width: 300px;
         height: 100vh;
-        background: rgba(31, 31, 31, 0.99);
+        background: rgba(26, 32, 100, 0.99);
         backdrop-filter: blur(7.5px);
         -webkit-backdrop-filter: blur(7.5px);
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        top: 0px;
+        top: 0;
         left: -100%;
         text-align: center;
         transition: all 0.68s ease-out;
@@ -1186,12 +1178,13 @@ li{
     #toggleIcon{
         display: block;
     }
-    .navbar_section a{
-        font-size: 1.5rem;
+    .navbar_section li a{
+        font-size: 1.5rem !important;
         font-weight: 600;
+        margin-bottom: 1.4rem;
     }
     .navbar_section ul.showNavbar{
-        right: 0;
+        left: 0;
     }
     .navbar_section {
         padding: 25px 20px;
@@ -1348,8 +1341,8 @@ li{
         width: 100%;
         height: auto;
     }
-    /* Navbar Section */
-    .nav_section{
+     /* Navbar Section */
+     .nav_section{
         padding: 20px 23px;
     }
     .navbar_section{
@@ -1359,14 +1352,14 @@ li{
         position: fixed;
         width: 300px;
         height: 100vh;
-        background: rgba(31, 31, 31, 0.99);
+        background: rgba(26, 32, 100, 0.99);
         backdrop-filter: blur(7.5px);
         -webkit-backdrop-filter: blur(7.5px);
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        top: 0px;
+        top: 0;
         left: -100%;
         text-align: center;
         transition: all 0.68s ease-out;
@@ -1383,12 +1376,13 @@ li{
     #toggleIcon{
         display: block;
     }
-    .navbar_section a{
-        font-size: 1.5rem;
+    .navbar_section li a{
+        font-size: 1.5rem !important;
         font-weight: 600;
+        margin-bottom: 1.4rem;
     }
     .navbar_section ul.showNavbar{
-        right: 0;
+        left: 0;
     }
     .navbar_section {
         padding: 25px 20px;
@@ -1537,14 +1531,14 @@ li{
 }
 
 /* For max width 375 and min width 320 */
-@media screen and (min-width: 320px) and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
     .nav_hero_section {
         position: relative;
         width: 100%;
         height: auto;
     }
-    /* Navbar Section */
-    .nav_section{
+     /* Navbar Section */
+     .nav_section{
         padding: 20px 23px;
     }
     .navbar_section{
@@ -1552,16 +1546,16 @@ li{
     }
     .navbar_section ul{
         position: fixed;
-        width: 300px;
+        width: 250px;
         height: 100vh;
-        background: rgba(31, 31, 31, 0.99);
+        background: rgba(26, 32, 100, 0.99);
         backdrop-filter: blur(7.5px);
         -webkit-backdrop-filter: blur(7.5px);
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        top: 0px;
+        top: 0;
         left: -100%;
         text-align: center;
         transition: all 0.68s ease-out;
@@ -1578,12 +1572,13 @@ li{
     #toggleIcon{
         display: block;
     }
-    .navbar_section a{
-        font-size: 1.5rem;
+    .navbar_section li a{
+        font-size: 1.5rem !important;
         font-weight: 600;
+        margin-bottom: 1.4rem;
     }
     .navbar_section ul.showNavbar{
-        right: 0;
+        left: 0;
     }
     .navbar_section {
         padding: 25px 20px;

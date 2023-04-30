@@ -6,17 +6,6 @@ $(document).ready(function () {
   });
 });
 
-// Scroll Effect on Navbar Section
-// window.addEventListener("scroll", function () {
-//   var navbar = document.querySelector("navbar_section");
-//   var scrollY = window.scrollY;
-
-//   if (scrollY >= 50) {
-//     navbar.classList.add("fixed");
-//   } else {
-//     navbar.classList.remove("fixed");
-//   }
-// });
 
 // Owl Carousel
 $(document).ready(function () {
@@ -46,5 +35,18 @@ $(document).ready(function () {
     },
   });
 });
+
+
+// Scroll Effect on Navbar Section
+// window.addEventListener("scroll", function () {
+//   var navbar = document.querySelector("navbar_section");
+//   var scrollY = window.scrollY;
+
+//   if (scrollY >= 50) {
+//     navbar.classList.add("fixed");
+//   } else {
+//     navbar.classList.remove("fixed");
+//   }
+// });
 
 // End
