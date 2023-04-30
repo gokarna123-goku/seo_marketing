@@ -936,6 +936,69 @@ li{
 }
 
 
+/* Responsive Codes */
+/* For max width 1024 and min width 968 */
+@media screen and (min-width: 968px) and (max-width: 1024px) {
+    /* Navbar Section */
+    .nav_section{
+        padding: 30px 23px;
+    }
+
+    /* Hero Section */
+    .hero_section {
+        padding: 30px 20px 30px 35px;
+    }
+    .hero_title {
+        font-size: 3.1rem;
+    }
+
+    /* Banner Section */
+    .banner_section {
+        padding: 50px 23px;
+    }
+    .banner_box {
+        padding: 30px;
+    }
+    .banner_title {
+        font-size: 1.58rem;
+    }
+
+    /* About Section */
+    .about {
+        padding: 50px 23px;
+    }
+    .about_title {
+        font-size: 2.01rem;
+        letter-spacing: 0.03rem;
+        line-height: 2.5rem;
+        margin-bottom: 2.0rem;
+    }
+
+    /* Service Section */
+    .service_section {
+        width: 100%;
+        height: 100vh;
+        padding: 50px 80px;
+    }
+    .service_title {
+        font-size: 2.01rem;
+        letter-spacing: 0.03rem;
+        line-height: 2.5rem;
+        margin-bottom: 2.0rem;
+    }
+
+    /* News letter section */
+    .newsletter_section {
+        padding: 40px 23px;
+    }
+    .news_title {
+        font-size: 1.6rem;
+    }
+    .subscribe_input {
+        width: 370px;
+    }
+    
+}
 
 
 /* End */
