@@ -769,6 +769,7 @@ li{
     justify-content: center;
     flex-wrap: wrap;
     gap: 1.6rem;
+    margin-bottom: 2rem;
 }
 
 .blog_card{
@@ -838,6 +839,9 @@ li{
 
 .blog_card:hover{
     transform: translate(0, -10px);
+}
+.view_more_btn{
+    color: #1b1b1b;
 }
 
 
