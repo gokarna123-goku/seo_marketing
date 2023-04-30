@@ -35,7 +35,7 @@
     <!-- Navbar and Hero Section -->
     <div class="nav_hero_section">
         <!-- Navbar Section -->
-        <div class="nav_section">
+        <div class="nav_section" id="nav">
             <!-- Company contact info -->
             <div class="company_info_detail">
                 <div class="company_detail">
@@ -681,6 +681,18 @@
 
     <!-- Custom JavaScript link -->
     <script src="./main.js"></script>
+    <script>
+        window.addEventListener("scroll", function () {
+            var navbar = document.getElementById("#nav");
+            var scrollY = window.scrollY;
+
+            if (scrollY >= 50) {
+                navbar.classList.add("fixed");
+            } else {
+                navbar.classList.remove("fixed");
+            }
+        });
+    </script>
 
     <!-- Owl Carousel CDN link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"

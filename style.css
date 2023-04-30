@@ -109,7 +109,14 @@ li{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: all 0.3s ease-out;
 }
+.navbar_section .fixed {
+    top: 0;
+    position: fixed;
+    background-color: #f0f0f0;
+}
+
 .nav_section .logo_section{
     display: flex;
     align-items: center;
@@ -144,18 +151,6 @@ li{
 .navbar_section ul li .active{
     color: #e24806;
 }
-
-/* Subnavbar section */
-/* .subnavbar_items{
-    position: absolute;
-    background: #f0f0f0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-} */
 
 .collection_box{
     display: flex;
@@ -902,9 +897,6 @@ li{
     border-radius: 4px;
     cursor: pointer;
 }
-
-
-
 
 
 /* Footer Section */
