@@ -774,10 +774,12 @@ li{
     width: 350px;
     height: auto;
     background: rgba(112, 112, 112, 0.05);
-    border: 1px solid #242bff;
+    border: 1px solid rgba(36, 43, 255, 0.3);
     border-radius: 10px;
     overflow: hidden;
     text-align: start;
+    cursor: pointer;
+    transition: transform 0.5s ease-out;
 }
 .blog_img{
     width: 100%;
@@ -831,6 +833,10 @@ li{
 }
 .read_more_btn:hover i{
     transform: translateX(4px);
+}
+
+.blog_card:hover{
+    transform: translate(0, -10px);
 }
 
 
