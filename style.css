@@ -874,6 +874,22 @@ li{
     font-weight: bold;
     letter-spacing: 0.09rem;
     color: #1b1b1b;
+    text-align: start;
+}
+.subscribe_section{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 1.4rem;
+}
+.subscribe_input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 0 10px;
+    font-size: 1.0rem;
 }
 
 
